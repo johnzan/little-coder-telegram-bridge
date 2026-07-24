@@ -186,7 +186,7 @@ def _format_result(result: PromptResult) -> str:
 
 async def _keep_typing(chat):
     """Telegram's typing indicator auto-expires after ~5s; refresh it for
-    as long as a turn is running so long tool-heavy turns don't go visibly
+    as long as a turn is running so long tool heavy turns don't go visibly
     silent."""
     try:
         while True:
